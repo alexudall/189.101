@@ -1,1 +1,182 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body {
+background-color: #92ddb5;
+background-image: url(img/illustration.gif), url(img/texture.jpg);
+background-position: center 280px, left top;
+background-repeat: no-repeat, repeat-x;
+background-size: 800px, auto;
+margin: 0;
+font-family: "Quicksand";
+
+}
+#nav {
+background-color: #66BB99;
+border-bottom: 2px dashed #448877;
+color: white;
+font-weight: bold;
+text-align: center;
+word-spacing: 2em;
+padding-top: 20px;
+padding-bottom: 20px;   
+}
+
+#logo {
+max-width: 360px;
+}
+
+#header {
+text-align: center;
+margin-top: 40px;
+}
+
+#description, #date {
+max-width: 220px;
+}
+
+.register_btn {
+background-color: #EE4433;
+border: 2px dashed #AA4433;
+border-radius: 2em;
+color: #FFFFFF;
+display: inline-block;
+font-weight: bold;
+margin-top: 25px;
+padding: 15px 30px;   
+}
+
+#what {
+background-color: rgba(200,240,220, 0.9);
+color:#347788;
+padding: 20px;
+    margin-top: 360px;
+}
+
+#what h1 {
+max-width: 800px;
+color: #347788;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+#what p{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+#what h2 {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+#sponsor_logos img {
+width: 330px
+}
+
+#why {
+padding: 20px 0;
+background-color: #b6ead3;
+color:#347788;
+margin-left: auto;
+margin-right: auto;
+}
+
+#why h1 {
+max-width: 800px;
+color: #347788;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+#why p{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+#where {
+padding: 20px 0;
+background-image: url(img/map.gif);
+background-repeat: no-repeat;
+background-position: center;
+color:#bb4488;
+margin-left: auto;
+margin-right: auto;
+max-width: 800px;
+
+}
+
+#where h1 {
+max-width: 800px;
+color: #bb4488;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+#where p {
+text-align: right;
+margin-left: auto;
+margin-right: auto;
+max-width: 800px;
+}
+
+#when {
+padding: 20px 0;
+background-image:url(img/wires.png);
+background-size: contain;
+background-color: #439998;
+background-repeat: no-repeat;
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+max-width: 800px;
+color: #ffffff;
+}
+
+#when h1 {
+max-width: 800px;
+color: #ffffff;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+#when p{
+text-align: right;
+margin-left: auto;
+margin-right: auto;
+max-width: 800px;
+color: #ffffff;
+}
+
+#when h3 {
+max-width: 800px;
+padding: 20px 0;
+color: #ffffff;
+text-align: center;
+margin-left: auto;
+margin-right: auto;   
+border-top: dashed #FFF;
+}
+
+#who {
+padding: 20px 0;
+background-color: #FFF;
+color:#347788;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+#footer {
+    padding: 20px 0;
+    text-align: center
+}
+
+#footer img {
+width: 40px
+}
