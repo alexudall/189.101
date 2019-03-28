@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;   
+}
+* {
+    outline: solid line:
+}
+.header {
+    background-color: #c59cd0;
+    height: 90px;
+    color: #fef0c1;
+    border-bottom: solid 6px #fef0c1;
+}
+.nav {
+    max-width: 950px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
+}
