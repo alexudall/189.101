@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ff0000;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+}
+* {
+    outline: solid 2px lime:
+}
+
+.header {
+    background-color: #ffcb00;
+    height: 90px;
+    color: #ff0000;
+    border-bottom: solid 6px #ff0000;
+}
+.nav {
+    position: fixed;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px auto;
+    background-color: #ffcb00;
+    height: 90px;
+    color: #ff0000;
+    width: 100%;
+    
+}
+.logo {
+    margin-top: 18px;
+    font-size: 2rem;
+}
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #00d0ff
+}
+.links a {
+    color: #00d0ff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.c3daf9 {
+    color: #c3daf9;
+}
+.banner {
+    background-image: url(banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.featwrapper {
+    background-color: #fcb6d2;
+}
+
+
+.title1 {
+    grid-column: 1/4;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #fef0c1;
+    text-align: center;
+}
+.photo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shopwrapper {
+    background-color: #ff0000;
+    position: relative;
+}
+
+#shop1 {
+    position: absolute;
+    top:-80px;
+}
+
+.shop {
+    background-color: #ff0000;
+    max-width: 930px;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+.title {
+    color: #00d0ff;
+    font-size: 2rem;
+    grid-column: 2/3;
+    text-align: center;
+    margin-right: 40px;
+}
+.getduffed img {
+    border: 10px #00d0ff solid;
+    height: 380px;
+    width: 380px;
+}
+.expl {
+    grid: 2/3;
+    margin-right: 40px;
+}
+
+.homer {
+    background-image: url(homer.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.aboutwrapper {
+    background-color: #ff0000;
+    position: relative;
+}
+
+#about {
+    position: absolute;
+    top:-80px;
+}
+
+.about {
+    background-color: #ff0000;
+    max-width: 930px;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+}
+.portwrapper {
+    background-color: #00d0ff;
+    position: relative;
+}
+
+#port {
+    position: absolute;
+    top: -80px;
+}
+
+.port {
+    background-color: #00d0ff;
+    max-width: 950px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.title3 {
+    font-size: 2rem;
+    color: #ff0000;
+    grid-column: 1/5;
+    margin: 20px;
+    text-align: center;
+}
+.pic1 {
+    margin: 20px;
+}
+
+.pic1 img {
+    width: 200px;
+}
